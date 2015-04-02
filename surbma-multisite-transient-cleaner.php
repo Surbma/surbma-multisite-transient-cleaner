@@ -6,7 +6,7 @@ Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Deletes ALL transients from ALL sites in a Multisite.
 Network: true
 
-Version: 1.0.0
+Version: 1.0.1
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -17,11 +17,16 @@ Text Domain: surbma-multisite-transient-cleaner
 Domain Path: /languages/
 */
 
+// Prevent direct access to the plugin
+if ( !defined( 'ABSPATH' ) ) {
+	die( 'Good try! :)' );
+}
+
 // Localization
 function surbma_multisite_transient_cleaner_init() {
-	load_plugin_textdomain( 'surbma-multisite-transient-cleaner', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
+	load_plugin_textdomain( 'surbma-multisite-transient-cleaner', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
-add_action( 'init', 'surbma_multisite_transient_cleaner_init' );
+add_action( 'plugins_loaded', 'surbma_multisite_transient_cleaner_init' );
 
 function surbma_multisite_transient_cleaner_activate() {
 	if ( is_multisite() ) {
