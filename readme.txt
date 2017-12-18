@@ -1,9 +1,9 @@
-=== Surbma - Multisite Transient Cleaner ===
+=== Multisite Transient Cleaner ===
 Contributors: Surbma
-Donate link: http://surbma.com/
+Donate link: http://surbma.com/donate/
 Tags: transient, transients, site transient, site transients, multisite
-Requires at least: 3.0
-Tested up to: 4.1
+Requires at least: 4.0
+Tested up to: 4.9
 Stable tag: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

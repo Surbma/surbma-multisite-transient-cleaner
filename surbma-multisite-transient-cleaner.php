@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: Surbma - Multisite Transient Cleaner
+Plugin Name: Multisite Transient Cleaner
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Deletes ALL transients from ALL sites in a Multisite.
 Network: true
@@ -31,9 +31,9 @@ add_action( 'plugins_loaded', 'surbma_multisite_transient_cleaner_init' );
 function surbma_multisite_transient_cleaner_activate() {
 	if ( is_multisite() ) {
 		global $wpdb;
-	
+
 		$all_sites = $wpdb->get_results( "SELECT * FROM $wpdb->blogs" );
-	
+
 		if ( $all_sites ) {
 			foreach ( $all_sites as $site ) {
 				$wpdb->set_blog_id( $site->blog_id );
