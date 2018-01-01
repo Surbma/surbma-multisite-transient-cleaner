@@ -1,4 +1,4 @@
-=== Multisite Transient Cleaner ===
+=== Surbma - Multisite Transient Cleaner ===
 Contributors: Surbma
 Donate link: http://surbma.com/donate/
 Tags: transient, transients, site transient, site transients, multisite
