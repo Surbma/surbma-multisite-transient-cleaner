@@ -1,15 +1,15 @@
 <?php
 
 /*
-Plugin Name: Surbma - Multisite Transient Cleaner
-Plugin URI: http://surbma.com/wordpress-plugins/
+Plugin Name: Surbma | Multisite Transient Cleaner
+Plugin URI: https://surbma.com/wordpress-plugins/
 Description: Deletes ALL transients from ALL sites in a Multisite.
 Network: true
 
-Version: 1.0.1
+Version: 2.0
 
 Author: Surbma
-Author URI: http://surbma.com/
+Author URI: https://surbma.com/
 
 License: GPLv2
 

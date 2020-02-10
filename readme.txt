@@ -1,10 +1,11 @@
-=== Surbma - Multisite Transient Cleaner ===
-Contributors: Surbma
-Donate link: http://surbma.com/donate/
+=== Surbma | Multisite Transient Cleaner ===
+Contributors: Surbma, CherryPickStudios
+Donate link: https://surbma.com/donate/
 Tags: transient, transients, site transient, site transients, multisite
-Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.0.1
+Requires at least: 5.1
+Tested up to: 5.3
+Stable tag: 2.0
+Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +13,7 @@ Deletes ALL transients from ALL sites in a Multisite.
 
 == Description ==
 
-This plugin is a Multisite plugin. It can be activated only in network wide. The Surbma - Multisite Transient Cleaner plugin deletes ALL transients from ALL sites in a Multisite. So please be careful and don't forget to backup your database before acivating this plugin!
+This plugin is a Multisite plugin. It can be activated only in network wide. The Surbma | Multisite Transient Cleaner plugin deletes ALL transients from ALL sites in a Multisite. So please be careful and don't forget to backup your database before acivating this plugin!
 
 The transient deletion only runs once, when the plugin is activated. You can leave it as is, but I strongly recommend to deactivate it and activate again, if you need so.
 
@@ -21,7 +22,7 @@ I don't recommend this plugin for anybody and I don't promise anything, this plu
 == Installation ==
 
 1. Upload `surbma-multisite-transient-cleaner` folder to the `/wp-content/plugins/` directory
-2. Activate the Surbma - Multisite Transient Cleaner plugin through the 'Plugins' menu in WordPress
+2. Activate the Surbma | Multisite Transient Cleaner plugin through the 'Plugins' menu in WordPress
 3. That's it. :)
 
 == Frequently Asked Questions ==
@@ -43,6 +44,13 @@ No. The transient cleaning function only runs, when you activate the plugin. If 
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.0 =
+
+Release date: 2020-02-10
+
+- TWEAK - Tested with WordPress 5.3 version.
+- TWEAK - Updated to use a new way to deploy it to wp.org repo.
 
 = 1.0.1 =
 
